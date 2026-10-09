@@ -21,6 +21,7 @@ Scripts for querying NCBI databases and extracting metadata associated with gene
 - Query NCBI Nucleotide and BioSample databases.
 - Retrieve accession numbers, organism names, specimen vouchers, BioProject identifiers, and other available metadata.
 - Support queries using museum specimen voucher identifiers (e.g., `USNM:FISH`).
+- Does NOT require NCBI API Key
 - Returns metadata in tab-delimited (TSV) format.
 
 #### *Usage instructions and requirements are provided within each script.*
