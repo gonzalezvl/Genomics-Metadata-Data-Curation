@@ -2,8 +2,6 @@
 
 A collection of scripts for retrieving and curating biodiversity genomics metadata from public repositories: National Center for Biotechnology Information (NCBI) and the Global Biodiversity Information Facility (GBIF).
 
-These tools support metadata reconciliation, specimen-data integration, and linking genetic sequence records with natural history museum collections, particularly those of the Smithsonian National Museum of Natural History (NMNH).
-
 ## Repository Contents
 
 ### 1. GBIF ARK Link Retrieval
