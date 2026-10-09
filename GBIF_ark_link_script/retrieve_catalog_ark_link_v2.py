@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 """
-Smithsonian NMNH Botany EZID Link (Ark URI) Lookup
+Smithsonian NMNH EZID Link (Ark URI) Lookup
 ===================================================
 
-Queries the GBIF API for Smithsonian National Museum of Natural History
-Botany specimens (collection code: US) and retrieves the corresponding
+Queries the GBIF API for Smithsonian National Museum of Natural History specimens (collection code: US) and retrieves the corresponding
 ARK/EZID URI for each catalog number.
 
 Created: VLG Mon Sep 28 13:08:12 EDT 2026
@@ -26,15 +25,15 @@ USAGE
 -----
 Basic usage:
 
-    python gbif_botany_ark.py catalog_numbers.txt
+    python retrieve_catalog_ark_link_v2.py catalog_numbers.txt
 
 Specify an output file:
 
-    python gbif_botany_ark.py catalog_numbers.txt -o botany_arks.tsv
+    python retrieve_catalog_ark_link_v2.py  catalog_numbers.txt -o botany_arks.tsv
 
 Optional delay between GBIF API requests:
 
-    python gbif_botany_ark.py catalog_numbers.txt -o botany_arks.tsv --delay 0.2
+    python retrieve_catalog_ark_link_v2.py  catalog_numbers.txt -o botany_arks.tsv --delay 0.2
 
 OUTPUT
 ------
@@ -78,7 +77,7 @@ GBIF_API = "https://api.gbif.org/v1/occurrence/search"
 # Smithsonian NMNH Extant Specimen Records
 NMNH_DATASET_KEY = "821cc27a-e3bb-4bc5-ac34-89ada245069d"
 
-# Smithsonian National Herbarium collection code
+# Smithsonian National Collection Code
 COLLECTION_CODE = "US"
 
 # Match Smithsonian ARK URIs
