@@ -53,7 +53,7 @@ URI
 
 USAGE
 -----
-    python3 ncbi_biosample_metadata_search.py -q "QUERY"
+    python3 ncbi_biosample_metadata_search_v2.py -q "QUERY"
 
 Optional output filename:
 
